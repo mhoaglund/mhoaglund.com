@@ -59,7 +59,7 @@ jspm_packages
 *.tgz
 
 #dhost Stuff
-.cshrc
+*.cshrc
 .bashrc
 .bash_profile
 .alias
