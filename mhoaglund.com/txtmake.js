@@ -17,7 +17,7 @@ var lightnessmod = 1.2;
 
 function initText(){
 	setOalls();
-		$('#dest').append('<span class="followon supplement"> I am a software designer and developer. I work with the artists of the Twin Cities to power interactive installations. </span>');
+		$('#dest').append('<span class="followon supplement">I was educated as a sculptor and spent almost a decade in the software industry.</span>');
 	txtMake($('#statement'));
 	txtMake($('#footertxt'));
 }
