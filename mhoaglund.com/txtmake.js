@@ -17,6 +17,7 @@ var lightnessmod = 1.2;
 
 function initText(){
 	setOalls();
+		$('#dest').append('<span class="followon supplement"> I am a software designer and developer. I work with the artists of the Twin Cities to power interactive installations. </span>');
 	txtMake($('#statement'));
 	txtMake($('#footertxt'));
 }
@@ -53,7 +54,7 @@ function txtMake(element){
 		opacity: 1.0
 	}, 200);
 	$('.overlay').delay(200).animate({
-		opacity: 0.6
+		opacity: 0.2
 	}, 200);
 }
 
@@ -73,4 +74,22 @@ function txtRemake(){
 			color: mycolor
 		});
 	}
+
+	var ht = $(document).height();
+	$('.column:first-child').css({
+		'min-height': ht
+	})
+	var headerht = $('.column:first-child .centerbox').height();
+	var correct = (ht/2) - (headerht/2);
+	if(correct > 0){
+		$('.column:first-child .centerbox').css({
+			'top': correct + 'px',
+		});
+	}
+	else{
+		$('.column:first-child .centerbox').css({
+			'top': 0 + 'px',
+		});
+	}
+	
 }
