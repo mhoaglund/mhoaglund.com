@@ -1,0 +1,203 @@
+
+html{
+	height: 100%;
+}
+html, body{
+	font-size: 2rem;
+	width: 100%;
+}
+
+h1, h2, h3, h4, p, a, span, div{
+    font-family: 'Oranienbaum', serif;
+    line-height: 1.2;
+    margin: 0;
+}
+
+p{
+	font-size: 0.8rem;
+	font-weight: 300;
+	font-family: 'Oranienbaum', serif;
+	color: #222;
+	line-height: 1.4;
+}
+
+span.followon{
+	font-family: 'Nunito Sans', serif;
+	font-weight: 700;
+}
+
+p.subhead{
+	color: black;
+}
+
+a{
+	font-size: 0.8rem;
+	font-weight: 300;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #487BEC;
+    margin: 1em 0;
+    padding: 0;
+    -webkit-margin-before: 1rem;
+    -webkit-margin-after: 1rem;
+}
+
+section{
+  	zoom: 1;
+}
+
+.rel{
+	position:relative;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+#statement{
+	display: none;
+}
+
+.glyph{
+	opacity: 0.0;
+	font-family: 'Nunito Sans', serif;
+}
+
+span.overlay{
+	color: #3498db;
+	font-family: 'Nunito Sans', serif;
+}
+
+div.border{
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	height: 8px;
+	width: 8px;
+	background-color: black;
+	z-index: 9999;
+}
+
+#left{
+	top: 0px;
+	left: 0px;
+	height: 100%;
+}
+
+#top{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+#right{
+	top: 0px;
+	right: 0px;
+	height: 100%;
+}
+
+#bottom{
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.column{
+	padding: 2% !important;
+	position: relative;
+}
+
+.column:nth-child(3){
+	background-color: #e8e8e8;
+}
+
+.column.footer{
+	background-color: #e8e8e8;
+}
+
+.column.details p{
+	font-family: 'Nunito Sans', serif;
+	font-weight: 700;
+	color: #20bb9c;
+}
+
+.pop{
+	margin-left: -2px;
+    position: absolute;
+    top: 0px;
+    width: 4px;
+    left: 50%;
+    height: 100%;
+    background-color: #ffcde7;
+}
+
+.column polygon{
+    fill: white;
+}
+
+.column.banner span{
+
+}
+svg.cornerfold{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+svg.cornerfold.grey polygon{
+	fill: #e8e8e8;
+}
+
+.column .txtcolumn{
+	width: 49%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.column .txtcolumn.full{
+	float: left;
+	margin: 0px;
+    width: auto;
+}
+
+.column .spacer{
+	height: 1px;
+	width: 2%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.overlaytarget{
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+
+@media (max-width: 800px){
+	html{
+		height: 100%;
+	}
+	html, body{
+	font-size: 1.6rem;
+	width: 100%;
+	}
+	.column .txtcolumn{ width: 100%; }
+	.column .spacer{ width: 0px; display: none; }
+}
+
+@media (min-width: 1350px){
+	html, body{
+	font-size: 2.0rem;
+	}
+}

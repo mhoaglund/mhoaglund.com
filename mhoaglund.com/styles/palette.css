@@ -1,0 +1,48 @@
+/*===Color Palette===*/
+/*from http://flatuicolors.com/*/
+
+	.color.turquoise {background: #1ABC9C;}
+	.color.green-sea {background: #16A085;}
+	.color.emerland {background: #2ECC71;}
+	.color.nephritis {background: #27AE60;}
+	.color.peter-river {background: #3498DB;}
+	.color.belize-hole {background: #2980B9;}
+	.color.periwinkle {background: #6885BB}
+	.color.amethyst {background: #9B59B6;}
+	.color.wisteria {background: #8E44AD;}
+	.color.wet-asphalt {background: #34495E;}
+	.color.midnight-blue {background: #2C3E50;}
+	.color.sun-flower {background: #F1C40F;}
+	.color.orange {background: #F39C12;}
+	.color.carrot {background: #E67E22;}
+	.color.pumpkin {background: #D35400;}
+	.color.alizarin {background: #E74C3C;}
+	.color.pomegranate {background: #C0392B;}
+	.color.clouds {background: #ECF0F1;color: #bdc3c7;}
+	.color.silver {background: #BDC3C7;}
+	.color.concrete {background: #95A5A6;}
+	.color.asbestos {background: #7F8C8D;}
+
+/*===End Color Palette===*/
+
+	.text-color.turquoise {color: #1ABC9C;}
+	.text-color.green-sea {color: #16A085;}
+	.text-color.emerland {color: #2ECC71;}
+	.text-color.nephritis {color: #27AE60;}
+	.text-color.peter-river {color: #3498DB;}
+	.text-color.belize-hole {color: #2980B9;}
+	.text-color.periwinkle {color: #6885BB}
+	.text-color.amethyst {color: #9B59B6;}
+	.text-color.wisteria {color: #8E44AD;}
+	.text-color.wet-asphalt {color: #34495E;}
+	.text-color.midnight-blue {color: #2C3E50;}
+	.text-color.sun-flower {color: #F1C40F;}
+	.text-color.orange {color: #F39C12;}
+	.text-color.carrot {color: #E67E22;}
+	.text-color.pumpkin {color: #D35400;}
+	.text-color.alizarin {color: #E74C3C;}
+	.text-color.pomegranate {color: #C0392B;}
+	.text-color.clouds {color: #ECF0F1;}
+	.text-color.silver {color: #BDC3C7;}
+	.text-color.concrete {color: #95A5A6;}
+	.text-color.asbestos {color: #7F8C8D;}
