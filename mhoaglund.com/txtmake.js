@@ -1,3 +1,8 @@
+var ht = $(document).height();
+	 $('.column:first-child').css({
+		 'min-height': ht
+	 })
+
 var data = {
 	active: initText,
 	google : {families: ['Cardo:italic', 'Roboto:300,100', 'Cutive Mono', 'Oranienbaum', 'Nunito Sans:900,700,500,300']}
@@ -17,7 +22,7 @@ var lightnessmod = 1.2;
 
 function initText(){
 	setOalls();
-		$('#dest').append('<span class="followon supplement">I was educated as a sculptor and spent almost a decade in the software industry.</span>');
+		$('#dest').append('<span class="followon supplement" id="elevator">I was educated as a sculptor and spent almost a decade in the software industry.</span>');
 	txtMake($('#statement'));
 	txtMake($('#footertxt'));
 }
@@ -50,11 +55,14 @@ function txtMake(element){
 	textElement.remove();
 	txtRemake();
 
-	$('.glyph').delay(200).animate({
+	$('#elevator').delay(100).animate({
 		opacity: 1.0
 	}, 200);
-	$('.overlay').delay(200).animate({
-		opacity: 0.2
+	$('.glyph').delay(100).animate({
+		opacity: 1.0
+	}, 700);
+	$('.overlay').delay(100).animate({
+		opacity: 0.4
 	}, 200);
 }
 
